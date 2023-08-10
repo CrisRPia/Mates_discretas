@@ -15,13 +15,13 @@
 - C: V
 - D: F (Sustraendo)
 - E: F (0)
-- F: V
+- F: F
 - G: V
 - H: F
 - I: V
 - J: F (Resta)
 - K: V
-- L: V
+- L: F
 
 ## 2
 - (6 + 2 + 3) * 5 = 6 * 5 + 2 * 5 + 3 * 5 = 30 + 10 + 15 = 55
@@ -35,32 +35,36 @@
 - (40 - 16) / 4 = 40 / 4 - 16 / 4 = 10 - 4 = 6
 
 ## 3
-- A: Asociativa
-- B: Distributiva
-- C: Conmutativa, asociativa
-- D: Asociativa (?)
-- E: Distributiva
-- F: Distributiva
+> En este tipo de ejercicios hay que nombrar la cantidad de propiedades y orden;
+no lo hice acá.
+- A: Asociativa, multiplicación
+- B: Distributiva, división, resta
+- C: Conmutativa, asociativa, multiplicación
+- D: Conmutativa, asociativa, suma
+- E: Distributiva de la división, división, suma
+- F: Distributiva de la multiplicación, multiplicación, resta
 
 ## 4
-- A: Sí.
+- A: Sí; reescribo el 97, distributiva de la multiplicación, operó en N, operó
+  en N.
 - B: No; la resta no cumple la propiedad asociativa.
-- C: No, la propiedad distributiva solo se puede aplicar a la división si el
+- C: No; la propiedad distributiva solo se puede aplicar a la división si el
   número a distribuir se encuentra a la derecha del dividendo.
-- D: Sí.
+- D: Sí, reescribió el 124, distributiva de la división, operó en N, operó en N.
 
 ## 5
 ```python
 # A
-2 + 60 - 54 / 9 - 4 = 2 + 60 - 6 - 4 =
+2 + 60 - 54 / 9 - 4 =
+2 + 60 - 6 - 4 =
 62 - 10 =
 52
 ```
 ```python
 # B
 3 * 7 + (8 - 2 + 4) - 21 / 3 =
-21 + 2 - 7 = 23 - 7 =
-16
+21 + 10 - 7 = 31 - 7 =
+24
 ```
 ```python
 # C
@@ -70,7 +74,7 @@
 ```
 ```python
 # D
-84 + \[5 + (36 / 2 - 3 * 5) - 4 * 3] + 10 / 5 =
+84 + [5 + (36 / 2 - 3 * 5) - 4 * 3] + 10 / 5 =
 84 + (5 + 3 - 12) + 2 =
 84 - 4 + 2 =
 82
@@ -83,7 +87,7 @@
 ```
 ```python
 # F
-3 * (4 - 2) + 15 / 3 + 3 / 4 =
+3 * (4 - 2) + 15 / 3 + 3 * 4 =
 3 * 2 + 15 / 3 + 3 * 4 =
 6 + 5 + 12 =
 23
@@ -97,7 +101,7 @@
 ```
 ```python
 # H
-3 * \[9 / (6 - 3)] + 1 =
+3 * [9 / (6 - 3)] + 1 =
 3 * (9 / 3) + 1 =
 3 * 3 + 1 =
 9 + 1 =
@@ -115,7 +119,7 @@
 (14 - 3 * 4) + (15 - 15 / 3) - 6 * 5 =
 (14 - 12) + (15 - 5) - 30 =
 2 + 10 - 30 =
-18
+18 # -18
 ```
 ```python
 # K
@@ -123,7 +127,7 @@
 12 * 5 / 10 + 12 + 15 - 30 =
 60 / 10 + 12 + 15 - 30 =
 6 - 3 =
-1
+1 # 3
 ```
 ```python
 # L
