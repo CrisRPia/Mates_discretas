@@ -13,8 +13,7 @@ x = \begin{cases}
     \end{cases}
 $$
 # Hi
-Some inline equation: $ x = \pi $
-$\sqrt{3x-1}+(1+x)^2$
+Some inline equation: $x = \pi$
 
 Further equations:
 
