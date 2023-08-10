@@ -1,5 +1,4 @@
 # Test
-$$ V_{sphere} = \frac{4}{3}\pi r^3 $$
 $$ E = mc^2 $$
 $$ 
 x = 1 \times 2 \\
