@@ -16,6 +16,7 @@ $$
 Some inline equation: $$ x = \pi $$
 
 Further equations:
+
 $$
     y = \frac{\pi}{2}
 $$
