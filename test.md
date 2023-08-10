@@ -13,7 +13,9 @@ x = \begin{cases}
     \end{cases}
 $$
 # Hi
-Some inline equation: $$ x = \pi $$
+Some inline equation: 
+
+$$ x = \pi $$
 
 Further equations:
 
