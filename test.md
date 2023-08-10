@@ -13,3 +13,9 @@ x = \begin{cases}
     \end{cases}
 $$
 # Hi
+Some inline equation: $$ x = \pi $$
+
+Further equations:
+$$
+    y = \frac{\pi}{2}
+$$
